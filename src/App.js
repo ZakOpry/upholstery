@@ -1,7 +1,8 @@
 import "./App.css";
+import TopBanner from "./components/TopBanner/TopBanner";
 
 function App() {
-  return <h1>Hello</h1>;
+  return <TopBanner></TopBanner>;
 }
 
 export default App;

@@ -1,0 +1,53 @@
+.mainTopBannerDiv {
+  width: 100vw;
+  height: auto;
+  background-image: linear-gradient(
+    135deg,
+    rgb(79, 182, 222),
+    rgb(59, 131, 226),
+    rgb(34, 86, 209)
+  );
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoDiv {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 12px;
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.mainNavBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.buttonDiv {
+  margin: 9px;
+}
+
+.buttonDiv:hover {
+  border: solid 3px white;
+}
+
+.buttonText {
+  margin: 5px;
+  font-size: 2rem;
+  color: white;
+}
