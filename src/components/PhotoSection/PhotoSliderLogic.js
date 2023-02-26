@@ -25,7 +25,7 @@ export default function PhotoSliderLogic(props) {
     <div className="photo-slider">
 <TfiAngleLeft onClick={previousImage}/>
         <div className='photo-container'>
-    <img src={props.images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} className="image" /></div>
+    <img src={props.images[currentImageIndex]} alt="upholster" className="image" /></div>
     <TfiAngleRight onClick={nextImage}/>
   </div>
   </IconContext.Provider>
