@@ -23,8 +23,7 @@
 }
 
 .logo {
-  margin-left: 10px;
-  margin-top: 15px;
+  margin-top: 35px;
   margin-bottom: 12px;
   max-height: 50%;
   max-width: 50%;
@@ -36,14 +35,21 @@
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 0;
+  height: 100px;
+  align-items: flex-end;
 }
 
 .buttonDiv {
-  margin: 9px;
+  margin-right: 13px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
 }
 
 .buttonDiv:hover {
-  border: solid 3px white;
+  outline: solid 4px white;
 }
 
 .buttonText {

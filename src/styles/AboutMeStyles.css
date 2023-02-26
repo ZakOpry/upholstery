@@ -1,0 +1,44 @@
+.mainAboutMeDiv{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(226, 237, 250, 0.521);
+    width: 60%;
+    margin-top: 100px;
+
+
+}
+
+    /* Mobile devices (portrait) */
+    @media only screen and (max-width: 600px) {
+        .mainAboutMeDiv{
+        width: 90%;}
+    }
+
+.aboutMeTitleDiv{
+    text-align: center;
+    font-size: 30px;
+
+
+    /* Mobile devices (portrait) */
+
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutMeTitleDiv{
+    font-size: 20px;
+   }
+    
+}
+
+.aboutMeBodyDiv{
+    text-align: left;
+    font-size: 20px;
+    width: 95%;
+
+
+}
+    /* Mobile devices (portrait) */
+    @media only screen and (max-width: 600px) {
+        .aboutMeBodyDiv{
+        font-size: 15px;
+    text-align: center;}
+    }

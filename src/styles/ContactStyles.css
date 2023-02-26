@@ -1,0 +1,45 @@
+.mainContactDiv{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 40%;
+}
+
+.contactTitle{
+    font-size: 45px;
+}
+
+.contactLinksContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.phoneLinkDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.number{
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .mainContactDiv {
+        width: 80%;
+    }
+    
+    .contactTitle {
+        font-size: 35px;
+    }
+    
+    .contactLinksContainer {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,85 @@
+.mainMobileNavBarDiv {
+    width: 100vw;
+    background-image: linear-gradient(
+        135deg,
+        rgb(79, 182, 222),
+        rgb(59, 131, 226),
+        rgb(34, 86, 209)
+      );
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .logo{
+   margin-top: 3px !important;
+   margin-left: 8px;
+  }
+  
+  .menuIcon {
+    color: white;
+    font-size: 45px;
+  }
+  
+  .menuDiv {
+    height: 100%;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .menuDiv:hover {
+    background-color: rgb(110, 167, 252);
+  }
+  
+  .dropDown {
+    height: auto;
+    width: 100vw;
+    background-image: linear-gradient(
+        135deg,
+        rgb(79, 182, 222),
+        rgb(59, 131, 226),
+        rgb(34, 86, 209)
+      );
+    position: fixed;
+    z-index: 1;
+    margin-top: 75.3px;
+    border-top: solid 1px rgb(194, 194, 194);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+  .link{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+  }
+  
+  .navBarButton {
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navBarButton:hover {
+    background-color: rgb(110, 167, 252);
+  }
+  
+  .navBarButton h3 {
+    margin: 5px;
+  }
+  
+  #dropDownProjects {
+    border-top: solid 0.5px whitesmoke;
+  }
+  
+  #dropDownContact {
+    border-top: whitesmoke solid 0.5px;
+  }
